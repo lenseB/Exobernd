@@ -8,10 +8,31 @@ Project template by...
 
 ## Installation
 This project uses a Makefile for building and installing. To install the project, follow these steps:
+### 1 way
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Run the make command.
+```bash
+git clone <https://github.com/lenseB/Exobernd.git>
+cd <Exobernd>
+make
+```
+### 2 way
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Open the workspace
+4. Press F5 (in VS Code) to Run(+ Debugging) the game
+```bash
+git clone <https://github.com/lenseB/Exobernd.git>
+cd <Exobernd>
+```
 
-Clone the repository to your local machine.
-Navigate to the project directory.
-Run the make command.
+### 3 way
+1. Clone the repository to your local machine.
+2. Excute the Exobernd.exe (This will start the game)
+```bash
+git clone <https://github.com/lenseB/Exobernd.git>
+```
 
 ## Game Controls
 F11: Toggle Fullscreen
@@ -23,12 +44,14 @@ Everything else is controlled with the Mouse.
 ## Dependencies
 This project depends on the following libraries:
 
-[raylib](https://www.raylib.com/): A simple and easy-to-use library to enjoy videogames programming.
+[raylib](https://www.raylib.com/): A simple and easy-to-use library that makes programming games enjoyable.
 [raygui](https://github.com/raysan5/raygui): Library for creating simple GUI interfaces using raylib graphic style. It is a single-file header-only library
 Please ensure these dependencies are installed on your system before building and running the project. (raygui is part of the repository!)
 
 ## Graphics
 Bernd das Brot - from r/place 2023
+Ponies - idk pls don't sue me 👉👈
+The rest wherre free to use.
 
 ## Classes and Functions
 GraphicsRendererRaylib: This class handles all the graphics rendering using the raylib library. It includes functions for loading and unloading textures, and for drawing the game objects on the screen.
