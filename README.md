@@ -7,7 +7,9 @@ Moorhuhn remake
 [Project template](https://github.com/educ8s/Raylib-CPP-Starter-Template-for-VSCODE-V2)
 
 ## Installation
-This project uses a Makefile for building and installing. To install the project, follow these steps:
+This project uses a Makefile for building and installing.
+When executing the project Microsoft Defender might think the game is a virus and deletes the .exe. Could not find a fix other than making an exception for the folder.
+To install the project, follow these steps:
 ### 1 way
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
