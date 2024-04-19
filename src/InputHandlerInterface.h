@@ -1,6 +1,6 @@
 #pragma once
 
-#include "raylib.h"
+#include <raylib.h>
 
 // Interface for InputHandler, could be used to implement different inputHandlers e.g. Controller
 // Separating the input handling from the game logic

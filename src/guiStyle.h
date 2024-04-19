@@ -11,7 +11,7 @@
 //                                                                              //
 //////////////////////////////////////////////////////////////////////////////////
 #pragma once
-#include "raylib.h"
+#include <raylib.h>
 #define LIGHT_STYLE_PROPS_COUNT 9
 
 // Custom style name: Light

@@ -1,7 +1,7 @@
 #pragma once
 
 #include "AudioRendererInterface.h"
-#include "raylib.h"
+#include <raylib.h>
 
 // implementations for AudioRendererInterface with Raylib
 class AudioRendererRaylib : public AudioRendererInterface

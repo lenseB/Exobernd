@@ -1,6 +1,6 @@
 #pragma once
 
-#include "raylib.h"
+#include <raylib.h>
 #include "Timer.h"
 #include "Pony.h"
 #include "Highscore.h"
