@@ -22,7 +22,7 @@ To install the project, follow these steps:
 ```bash
 git clone <https://github.com/lenseB/Exobernd.git>
 cd <Exobernd>
-make
+C:/raylib/w64devkit/bin/mingw32-make.exe RAYLIB_PATH=C:/raylib/raylib PROJECT_NAME=main OBJS=src/*.cpp BUILD_MODE=DEBUG
 ```
 
 ### 2 way
