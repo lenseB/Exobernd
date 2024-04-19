@@ -42,30 +42,35 @@ Esc: Pause the game
 Everything else is controlled with the Mouse.
 
 ## Dependencies
-This project depends on the following libraries:
-
-[raylib](https://www.raylib.com/): A simple and easy-to-use library that makes programming games enjoyable.
+This project depends on the following libraries:  
+  
+[raylib](https://www.raylib.com/): A simple and easy-to-use library that makes programming games enjoyable.  
 [raygui](https://github.com/raysan5/raygui): Library for creating simple GUI interfaces using raylib graphic style. It is a single-file header-only library
 Please ensure these dependencies are installed on your system before building and running the project. (raygui is part of the repository!)
 
 ## Graphics
-Bernd das Brot - from r/place 2023
-Ponies - idk pls don't sue me 👉👈
-The rest wherre free to use.
-
+Bernd das Brot - from r/place 2023  
+Ponies - idk pls don't sue me 👉👈  
+The rest is free to use.  
 ## Classes and Functions
-GraphicsRendererRaylib: This class handles all the graphics rendering using the raylib library. It includes functions for loading and unloading textures, and for drawing the game objects on the screen.
+GraphicsRendererRaylib: This class handles all the graphics rendering using the raylib library. It includes functions for loading and unloading textures, and for drawing the game objects on the screen.  
 
-loadTextures(): This function is responsible for loading all the necessary textures from the disk. It throws a std::runtime_error if a texture cannot be loaded.
+InputHandler: This class is responsible for handling user input. It captures the state of various inputs (like shooting or reloading) and provides an interface for other parts of the program to react to these inputs.  
 
-UnloadTexture(): This function unloads a texture from memory.
+AudioRenderer: This class is responsible for handling all audio-related tasks in the game. It can play, stop, and update sounds and music. It also provides an interface to play specific sounds when certain actions are performed in the game, like selecting an option in the menu.  
 
-CloseWindow(): This function closes the game window.
+Game: This class represents the main game logic. It uses the InputHandler, GraphicsRenderer, and AudioRenderer to create a complete game.  
+
+Timer: This class manages a timer and its state. It includes functions for starting, stopping, resuming, updating, and resetting the timer. It also provides functions to get the time left and check if the timer is running.  
+
+PonyFactory: This class is a factory for creating Pony objects. It includes static methods for initializing a list of ponies and creating a single pony.  
+
+Pony: This class represents a Pony in the game. It includes methods for updating the pony's position, checking if the pony has been hit, and retrieving the pony's position, direction, and type.  
+
+Highscore: This class manages the game's highscore. It includes methods for adding points based on the type of pony, resetting the score, and retrieving the current score.
+The class also contains private variables for the score and a map ponyPoints that maps PonyType to points.  
+
+This class manages the ammunition of the player in the game. It includes methods for checking if the ammunition is empty or reloading, reloading the ammunition, shooting, updating the ammunition state, and getting the amount of ammunition left.  
+
 
 Please refer to the source code for more details about the classes and functions.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-Acknowledgments
-Thanks to raylib for their easy-to-use game programming library.
