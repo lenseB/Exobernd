@@ -4,7 +4,7 @@ small c++ game made in raylib.
 You play as Bernd das Brot and shoot flying My little ponies.
 Moorhuhn remake
 
-Project template by...
+[Project template](https://github.com/educ8s/Raylib-CPP-Starter-Template-for-VSCODE-V2)
 
 ## Installation
 This project uses a Makefile for building and installing. To install the project, follow these steps:
