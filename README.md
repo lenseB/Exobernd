@@ -35,10 +35,10 @@ git clone <https://github.com/lenseB/Exobernd.git>
 ```
 
 ## Game Controls
-F11: Toggle Fullscreen
-Q: Quit
-Esc: Pause the game
-
+F11: Toggle Fullscreen  
+Q: Quit  
+Esc: Pause the game  
+  
 Everything else is controlled with the Mouse.
 
 ## Dependencies
